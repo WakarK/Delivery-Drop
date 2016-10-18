@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.wakarkhan.deliverydropnavigation.Fragments.HomeFragment"
+    android:background="@color/colorPrimaryLight">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:text="Your Delivery Drop Address:"/>
+
+    <TextView
+        android:id="@+id/CustomerAddress"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="25sp"
+        android:text="Damn Son! \n What a Nigga \n Shit bitch." />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:text="Use this address while buying stuff on any e-commerce website."/>
+
+</LinearLayout>
