@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     tools:context="com.wakarkhan.deliverydropnavigation.Fragments.HomeFragment"
-    android:background="@color/colorPrimaryLight">
+    android:background="@color/colorBackgroundDefault">
 
     <TextView
         android:layout_width="300dp"
@@ -21,8 +21,8 @@
         android:id="@+id/CustomerAddress"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        android:background="@android:color/white"
-        android:textColor="@android:color/black"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingTop="20dp"

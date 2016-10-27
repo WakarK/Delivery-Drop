@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/iv_order"
+            android:layout_width="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/images"
+            android:layout_height="120dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:textSize="25sp"
+            android:id="@+id/tv_order_details"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_order"
+            android:layout_toLeftOf="@+id/tv_order_status" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="15sp"
+            android:id="@+id/tv_order_status"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:id="@+id/tv_product_name"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/tv_order_details"
+            android:layout_toRightOf="@+id/iv_order"
+            android:layout_toEndOf="@+id/iv_order"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online website name"
+            android:id="@+id/tv_website"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/tv_product_name"
+            android:layout_toRightOf="@+id/iv_order"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

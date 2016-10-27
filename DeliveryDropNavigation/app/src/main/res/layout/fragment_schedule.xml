@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundDefault"
+    android:gravity="center_horizontal"
+    tools:context=".Fragments.ScheduleFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="30sp"
+        android:text="Present Time of Delivery"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp">
+        
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="Set Delivery Time"
+            android:id="@+id/et_delivery_time"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Time"
+            android:id="@+id/btn_set_time"
+            android:layout_below="@+id/et_delivery_time"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
